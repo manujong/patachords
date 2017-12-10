@@ -1,0 +1,33 @@
+book:
+  lang: fr
+  encoding: utf8
+  datadir: "."
+  pictures: yes
+chords:
+  show: yes
+  diagramreminder: important
+  repeatchords: yes
+  lilypond: yes
+  diagrampage: none
+
+authors:
+  separators:
+    - "and"
+    - "et"
+content:
+  - section: "Traditional"
+  - "chevaliers_de_la_table_ronde.tsg"
+  - "vent_frais.tsg"
+
+template:
+  default.tex:
+    title: "Recueil de chansons pour Enfants"
+    author: "Emmanuel Dubois"
+  patacrep.tex:
+    color:
+      songlink: FF0000
+      hyperlink: 0000FF
+    bgcolor:
+      note: D1E4AE
+      songnumber: AED1E4
+      index: E4AED1

@@ -1,0 +1,34 @@
+book:
+  lang: fr
+  encoding: utf8
+  datadir: "."
+  pictures: yes
+chords:
+  show: yes
+  diagramreminder: important
+  repeatchords: yes
+  lilypond: yes
+  diagrampage: none
+
+authors:
+  separators:
+    - "and"
+    - "et"
+
+template:
+  default.tex:
+    title: "Recueil de compositions"
+    author: "Emmanuel Dubois"
+  patacrep.tex:
+    color:
+      songlink: FF0000
+      hyperlink: 0000FF
+    bgcolor:
+      note: D1E4AE
+      songnumber: AED1E4
+      index: E4AED1
+    url: ""
+    email: dubois.manu@laposte.net
+    picture: play_beach
+    picturecopyright: ""
+    footer: ""
